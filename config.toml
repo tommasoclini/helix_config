@@ -1,8 +1,9 @@
-theme = "gruvbox"
+theme = "onedark"
 
 [editor]
 line-number = "relative"
 mouse = true
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,3 +18,21 @@ enable = true
 max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
 wrap-indicator = "|"  # set wrap-indicator to "" to hide it
+
+[keys.insert]
+C-s = ["normal_mode", ":w"]
+
+[keys.normal]
+# save with ctrl + s
+C-s = ":w"
+# buffer navigation
+S-h = ":bp"
+S-l = ":bn"
+# line moving
+"A-j" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
+"A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+# window navigation
+"C-left" = "jump_view_left"
+"C-right" = "jump_view_right"
+"C-up" = "jump_view_up"
+"C-down" = "jump_view_down"
