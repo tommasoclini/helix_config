@@ -50,3 +50,6 @@ S-l = ":bn"
 "C-right" = "jump_view_right"
 "C-up" = "jump_view_up"
 "C-down" = "jump_view_down"
+
+C-g = ":sh tmux popup -d \"#{pane_current_path}\" -xC -yC -w80% -h80% -E lazygit"
+
