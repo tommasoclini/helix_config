@@ -53,3 +53,5 @@ S-l = ":bn"
 
 C-g = ":sh tmux popup -d \"#{pane_current_path}\" -xC -yC -w80% -h80% -E lazygit"
 
+[keys.normal."space".c]
+f = ":format"
