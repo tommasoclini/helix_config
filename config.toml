@@ -4,6 +4,8 @@ theme = "ayu_mirage"
 line-number = "relative"
 mouse = true
 bufferline = "multiple"
+completion-timeout = 1
+rulers = [ 80, 120 ]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -32,6 +34,13 @@ separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "error"
+
+[editor.lsp]
+display-inlay-hints = true
 
 [keys.insert]
 C-s = ["normal_mode", ":w"]
