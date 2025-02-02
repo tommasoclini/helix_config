@@ -4,7 +4,7 @@ theme = "ayu_mirage"
 line-number = "relative"
 mouse = true
 bufferline = "multiple"
-completion-timeout = 1
+completion-timeout = 0
 rulers = [ 80, 120 ]
 
 [editor.cursor-shape]
