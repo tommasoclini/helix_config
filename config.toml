@@ -1,4 +1,4 @@
-theme = "ayu_mirage"
+theme = "gruvbox"
 
 [editor]
 line-number = "relative"
@@ -6,6 +6,8 @@ mouse = true
 bufferline = "multiple"
 completion-timeout = 0
 rulers = [ 80, 120 ]
+cursorline = true
+# cursorcolumn = true
 
 [editor.cursor-shape]
 insert = "bar"
