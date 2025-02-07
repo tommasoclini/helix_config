@@ -8,6 +8,7 @@ completion-timeout = 0
 rulers = [ 80, 120 ]
 cursorline = true
 # cursorcolumn = true
+gutters = ["diff", "line-numbers", "spacer"]
 
 [editor.cursor-shape]
 insert = "bar"
