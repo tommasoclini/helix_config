@@ -3,7 +3,7 @@ theme = "gruvbox"
 [editor]
 line-number = "relative"
 mouse = true
-bufferline = "multiple"
+bufferline = "never"
 completion-timeout = 0
 rulers = [ 80, 120 ]
 cursorline = true
