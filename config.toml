@@ -1,4 +1,4 @@
-theme = "gruvbox"
+theme = "my_onedark"
 
 [editor]
 line-number = "relative"
